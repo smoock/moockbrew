@@ -5,6 +5,8 @@ gem 'rails', '4.0.4'
 
 # Use sqlite3 as the database for Active Record
 gem 'sqlite3'
+gem 'pg'
+gem 'taps'
 
 # Use SCSS for stylesheets
 gem 'sass-rails', '~> 4.0.2'
@@ -48,3 +50,7 @@ gem 'spree', github: 'spree/spree', branch: '2-2-stable'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-2-stable'
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-2-stable'
 gem 'spree_simple_sales', :path => './spree_simple_sales'
+ruby '2.1.1'
+
+#heroku
+gem 'rails_12factor', group: :production
