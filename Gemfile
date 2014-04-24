@@ -52,7 +52,12 @@ end
 gem 'spree', github: 'spree/spree', branch: '2-2-stable'
 gem 'spree_gateway', :git => 'https://github.com/spree/spree_gateway.git', :branch => '2-2-stable'
 gem 'spree_auth_devise', :git => 'https://github.com/spree/spree_auth_devise.git', :branch => '2-2-stable'
+
+#extensions
+gem 'spree_static_content', github: 'spree/spree_static_content', :branch => '2-2-stable'
 gem 'spree_simple_sales', :path => './spree_simple_sales'
+
+
 ruby '2.1.1'
 
 #heroku
